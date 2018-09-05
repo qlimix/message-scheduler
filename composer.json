@@ -1,0 +1,30 @@
+{
+    "name": "qlimix/queue-scheduler",
+    "type": "package",
+    "license": "LGPL-3.0-only",
+    "authors": [
+        {
+            "name": "frank",
+            "email": "frank@qlimix.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Qlimix\\Queue\\Scheduler\\": "src/"
+        }
+    },
+    "require": {
+        "qlimix/queue": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:qlimix/queue.git"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
