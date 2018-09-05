@@ -5,19 +5,32 @@ namespace Qlimix\Queue\Scheduler;
 final class ScheduledMessage
 {
     /** @var string */
+    private $id;
+
+    /** @var string */
     private $route;
 
     /** @var string */
     private $message;
 
     /**
+     * @param string $id
      * @param string $route
      * @param string $message
      */
-    public function __construct(string $route, string $message)
+    public function __construct(string $id, string $route, string $message)
     {
+        $this->id = $id;
         $this->route = $route;
         $this->message = $message;
+    }
+
+    /**
+     * @return string
+     */
+    public function getId(): string
+    {
+        return $this->id;
     }
 
     /**
