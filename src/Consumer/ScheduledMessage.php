@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Qlimix\Queue\Scheduler;
+namespace Qlimix\Queue\Scheduler\Consumer;
 
 final class ScheduledMessage
 {
