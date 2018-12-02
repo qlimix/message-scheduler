@@ -1,5 +1,5 @@
 {
-    "name": "qlimix/queue-scheduler",
+    "name": "qlimix/message-scheduler",
     "type": "package",
     "license": "LGPL-3.0-only",
     "authors": [
@@ -10,18 +10,9 @@
     ],
     "autoload": {
         "psr-4": {
-            "Qlimix\\Queue\\Scheduler\\": "src/"
+            "Qlimix\\Message\\Scheduler\\": "src/"
         }
     },
-    "require": {
-        "qlimix/queue": "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:qlimix/queue.git"
-        }
-    ],
     "config": {
         "sort-packages": true
     },
