@@ -2,16 +2,15 @@
 
 namespace Qlimix\Message\Scheduler\Processor;
 
-use Qlimix\Message\Scheduler\Consumer\SchedulerAcknowledgeInterface;
+use Qlimix\Message\Scheduler\Consumer\ScheduledMessage;
 use Qlimix\Message\Scheduler\Processor\Exception\SchedulerProcessException;
 
 interface SchedulerProcessorInterface
 {
     /**
-     * @param array $messages
-     * @param SchedulerAcknowledgeInterface $acknowledge
+     * @param ScheduledMessage[] $messages
      *
      * @throws SchedulerProcessException
      */
-    public function process(array $messages, SchedulerAcknowledgeInterface $acknowledge): void;
+    public function process(array $messages): void;
 }
