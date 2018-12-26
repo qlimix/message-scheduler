@@ -13,11 +13,6 @@ final class ScheduledMessage
     /** @var string */
     private $message;
 
-    /**
-     * @param string $id
-     * @param string $route
-     * @param string $message
-     */
     public function __construct(string $id, string $route, string $message)
     {
         $this->id = $id;
@@ -25,25 +20,16 @@ final class ScheduledMessage
         $this->message = $message;
     }
 
-    /**
-     * @return string
-     */
     public function getId(): string
     {
         return $this->id;
     }
 
-    /**
-     * @return string
-     */
     public function getRoute(): string
     {
         return $this->route;
     }
 
-    /**
-     * @return string
-     */
     public function getMessage(): string
     {
         return $this->message;

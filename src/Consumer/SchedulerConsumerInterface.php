@@ -2,7 +2,7 @@
 
 namespace Qlimix\Message\Scheduler\Consumer;
 
-use Qlimix\Message\Scheduler\Exception\SchedulerConsumeException;
+use Qlimix\Message\Scheduler\Consumer\Exception\SchedulerConsumeException;
 
 interface SchedulerConsumerInterface
 {
@@ -14,8 +14,6 @@ interface SchedulerConsumerInterface
     public function consume(): array;
 
     /**
-     * @param ScheduledMessage $message
-     *
      * @throws SchedulerConsumeException
      */
     public function acknowledge(ScheduledMessage $message): void;

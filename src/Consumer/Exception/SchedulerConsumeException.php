@@ -1,7 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Qlimix\Message\Scheduler\Exception;
+namespace Qlimix\Message\Scheduler\Consumer\Exception;
 
-final class SchedulerConsumeException extends \Exception
+use Exception;
+
+final class SchedulerConsumeException extends Exception
 {
 }

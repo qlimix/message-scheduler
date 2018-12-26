@@ -2,6 +2,8 @@
 
 namespace Qlimix\Message\Scheduler\Processor\Exception;
 
-final class SchedulerProcessException extends \Exception
+use Exception;
+
+final class SchedulerProcessException extends Exception
 {
 }

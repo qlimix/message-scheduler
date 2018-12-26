@@ -2,15 +2,15 @@
 
 namespace Qlimix\Message\Scheduler;
 
-use Qlimix\Message\Scheduler\Exception\SchedulerException;
+use DateTimeImmutable;
+use Qlimix\Message\Scheduler\Consumer\Exception\SchedulerException;
 
 interface SchedulerInterface
 {
     /**
      * @param mixed $message
-     * @param \DateTimeImmutable $scheduledAt
      *
      * @throws SchedulerException
      */
-    public function schedule($message, \DateTimeImmutable $scheduledAt): void;
+    public function schedule($message, DateTimeImmutable $scheduledAt): void;
 }
