@@ -12,5 +12,5 @@ interface SchedulerInterface
      *
      * @throws SchedulerException
      */
-    public function schedule($message, DateTimeImmutable $scheduledAt): void;
+    public function schedule(string $route, $message, DateTimeImmutable $scheduledAt): void;
 }
