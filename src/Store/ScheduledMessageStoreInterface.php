@@ -10,5 +10,5 @@ interface ScheduledMessageStoreInterface
     /**
      * @throws ScheduledMessageStoreException
      */
-    public function add(string $message, DateTimeImmutable $scheduledAt): void;
+    public function add(string $route, string $message, DateTimeImmutable $scheduledAt): void;
 }
