@@ -14,7 +14,9 @@ interface SchedulerConsumerInterface
     public function consume(): array;
 
     /**
+     * @param string[] $messageIds
+     *
      * @throws SchedulerConsumeException
      */
-    public function acknowledge(ScheduledMessage $message): void;
+    public function acknowledge(array $messageIds): void;
 }
