@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Qlimix\Message\Scheduler\Consumer\Exception;
+namespace Qlimix\Message\Scheduler\Exception;
 
 use Exception;
 

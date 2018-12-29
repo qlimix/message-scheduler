@@ -3,7 +3,7 @@
 namespace Qlimix\Message\Scheduler;
 
 use DateTimeImmutable;
-use Qlimix\Message\Scheduler\Consumer\Exception\SchedulerException;
+use Qlimix\Message\Scheduler\Exception\SchedulerException;
 
 interface SchedulerInterface
 {

@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Qlimix\Message\Scheduler\Consumer;
+namespace Qlimix\Message\Scheduler\Store;
 
-use Qlimix\Message\Scheduler\Consumer\Exception\SchedulerConsumeException;
+use Qlimix\Message\Scheduler\Store\Exception\SchedulerConsumeException;
 
 interface SchedulerConsumerInterface
 {
