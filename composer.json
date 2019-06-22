@@ -1,7 +1,8 @@
 {
     "name": "qlimix/message-scheduler",
-    "type": "package",
-    "license": "LGPL-3.0-only",
+    "type": "library",
+    "description": "Interfaces for Scheduling messages",
+    "license": "MIT",
     "authors": [
         {
             "name": "frank",
@@ -16,19 +17,7 @@
     "config": {
         "sort-packages": true
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:qlimix/codesniffer-standard.git"
-        },
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:qlimix/code-standard.git"
-        }
-    ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "require-dev": {
-        "qlimix/code-standard": "dev-master"
+        "qlimix/code-standard": "^1.0"
     }
 }

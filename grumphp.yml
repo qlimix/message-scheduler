@@ -6,16 +6,15 @@ parameters:
   ascii: ~
   tasks:
     phpcs:
-      standard: Qlimix
     phpmd:
       ruleset: ['vendor/qlimix/code-standard/src/MessDetection/ruleset.xml']
     phpstan:
       level: 7
       ignore_patterns:
-        - "*/spec/*"
-        - "*/tests/*"
-        - "*/app/*"
-        - "*/config/*"
-        - "*/public/*"
-        - "*/bin/*"
-        - "*/docs/*"
+        - "spec"
+        - "tests"
+        - "app"
+        - "config"
+        - "public"
+        - "bin"
+        - "docs"
