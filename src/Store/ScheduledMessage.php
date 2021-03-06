@@ -4,14 +4,11 @@ namespace Qlimix\Message\Scheduler\Store;
 
 final class ScheduledMessage
 {
-    /** @var string */
-    private $id;
+    private string $id;
 
-    /** @var string */
-    private $route;
+    private string $route;
 
-    /** @var string */
-    private $message;
+    private string $message;
 
     public function __construct(string $id, string $route, string $message)
     {

@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">7.4"
     },
     "autoload": {
         "psr-4": {
@@ -21,6 +21,6 @@
         "sort-packages": true
     },
     "require-dev": {
-        "qlimix/code-standard": "^1.0"
+        "qlimix/code-standard": "^3.0"
     }
 }
