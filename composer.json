@@ -17,6 +17,11 @@
             "Qlimix\\Message\\Scheduler\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Qlimix\\Tests\\Message\\Scheduler\\": "tests/"
+        }
+    },
     "config": {
         "sort-packages": true
     },

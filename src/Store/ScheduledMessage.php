@@ -5,9 +5,7 @@ namespace Qlimix\Message\Scheduler\Store;
 final class ScheduledMessage
 {
     private string $id;
-
     private string $route;
-
     private string $message;
 
     public function __construct(string $id, string $route, string $message)
