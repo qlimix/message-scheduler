@@ -1,5 +1,7 @@
 # message-scheduler
 
+> **Archived:** this package is no longer maintained.
+
 [![Travis CI](https://api.travis-ci.org/qlimix/message-scheduler.svg?branch=master)](https://travis-ci.org/qlimix/message-scheduler)
 [![Coveralls](https://img.shields.io/coveralls/github/qlimix/message-scheduler.svg)](https://coveralls.io/github/qlimix/message-scheduler)
 [![Packagist](https://img.shields.io/packagist/v/qlimix/message-scheduler.svg)](https://packagist.org/packages/qlimix/message-scheduler)
